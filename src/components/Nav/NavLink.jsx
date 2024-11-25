@@ -10,7 +10,7 @@ export const NavLink = ({ to, children, className }) => {
 	return (
 		<NavigationMenuItem>
 			<Link to={to} className={`${className} opacity-75`}>
-				<NavigationMenuLink>{children}</NavigationMenuLink>
+				{children}
 			</Link>
 		</NavigationMenuItem>
 	)
